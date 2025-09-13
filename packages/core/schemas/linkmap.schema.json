@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Linkmap","type":"object","required":["edges"],"properties":{"edges":{"type":"array","items":{"type":"object","required":["from","to","weight"],"properties":{"from":{"type":"string"},"to":{"type":"string"},"weight":{"type":"number","minimum":0,"maximum":1}}}}},"additionalProperties":false}

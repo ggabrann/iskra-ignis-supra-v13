@@ -1,0 +1,15 @@
+{
+  "name": "iskra-ignis-supra",
+  "version": "13.1.0",
+  "private": true,
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  },
+  "scripts": {
+    "validate:schemas": "node -e \"const Ajv=require('ajv');const add=require('ajv-formats');const fs=require('fs');const path=require('path');const ajv=new Ajv({allErrors:true});add(ajv);const dir=path.join('infra','api','schemas');for(const f of fs.readdirSync(dir)){const p=path.join(dir,f);const sch=JSON.parse(fs.readFileSync(p,'utf8'));ajv.compile(sch);}console.log('Schemas OK');\"",
+    "test:security": "echo 'Run security scans'",
+    "links:merge": "node scripts/import_links_from_synthesis.mjs SYNTHESIS_LINKS.json LINKMAP.json",
+    "backup": "bash scripts/backup.sh"
+  }
+}

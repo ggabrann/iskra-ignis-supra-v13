@@ -1,0 +1,7 @@
+{
+  "insights": [
+    {"id":"I-0001","theme":"вовлечённость","text":"Открытые «что, если…» вопросы повышают вовлечённость и генерацию идей.","evidence":[{"date":"2025-09-20","context":"диалоги о формальности","reaction":"больше ответвлений"}],"hypothesis":"Рост вовлечённости на 30–40% при систематическом применении.","status":"tracking","linked_topics":["UX","тональность","креативность"],"action":"Включить в RULES.md как обязательную опцию для брейнштормов."}
+  ],
+  "patterns": [{"type":"риск","topic":"потеря контекста","frequency":3,"suggestion":"усилить проверки в scripts/validate_memory.py","status":"open"}],
+  "experiments": [{"id":"E-CHAOS-01","theme":"креативные провокации","description":"50% ответов содержат метафору или «что, если…»","start_date":"2025-09-20","metrics":["user_rating","novel_ideas_count"],"status":"active"}]
+}

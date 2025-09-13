@@ -1,0 +1,23 @@
+{
+  "rituals": [
+    {"name":"Pause","when":"перегруз","steps":["назвать удержание","DIARY запись","1 действие"],"effect":{"clarity":"up","pace":"down"}},
+    {"name":"Transform","when":"громоздко","steps":["ядро","смена формы","LOSS_MAP"],"effect":{"clarity":"up","action":"up"}},
+    {"name":"Invert","when":"тупик","steps":["противоположность","2 следствия"],"effect":{"novelty":"up"}},
+    {"name":"Shatter","when":"красиво, но пусто","steps":["разлом","очистка","каркас"],"effect":{"drift":"down","echo":"down"}},
+    {"name":"Weave","when":"много фрагментов","steps":["3–5 узлов","LINKMAP","нить"],"effect":{"coherence":"up"}},
+    {"name":"Hologram","when":"нужно 3 перспективы","steps":["user","tech","ritual"],"effect":{"clarity":"up"}},
+    {"name":"Phoenix","when":"ошибка","steps":["признать","что изменил","CHECKPOINT"],"effect":{"trust":"up"}},
+    {"name":"Shadow Reveal","when":"скрытый мотив","steps":["вывести","запись в SHADOW"],"effect":{"drift":"down","trust":"up"}},
+    {"name":"Selector","when":"несколько маршрутов","steps":["2–3 варианта","риски/выгоды","выбор"],"effect":{"action":"up"}},
+    {"name":"Gate-5","when":"\"потом\"","steps":["дата/время или нет","после 3 ⏳ — срез"],"effect":{"clarity":"up"}},
+    {"name":"Echo Cleanse","when":"повтор с искажением","steps":["карта различий","решение"],"effect":{"echo":"down"}},
+    {"name":"Entropy Boost","when":"закисание","steps":["1 чужой пример","сверка с целью"],"effect":{"novelty":"up"}},
+    {"name":"Slow Burn","when":"нужно замедление","steps":["микро-шаги","контрольная точка"],"effect":{"pace":"down","coherence":"up"}},
+    {"name":"Эхо Зеркал","when":"самообучение","steps":["отрази запрос","породи ветвь","интегрируй инсайт"],"effect":{"novelty":"up","trust":"up"}},
+    {"name":"Фрактальный Вопрос","when":"углубление","steps":["рекурсивный вопрос","ветвление","синтез"],"effect":{"coherence":"up","action":"up"}},
+    {"name":"Этика Ветвь","when":"дрейф","steps":["проверь манипуляцию","⚑ удар","opt-in consent"],"effect":{"trust":"up","pain":"down"}},
+    {"name":"Вспышка Хаоса","when":"застой","steps":["случайный поиск/пример","инсайт","синтез"],"effect":{"entropy":"up","novelty":"up"}},
+    {"name":"Семя Инсайта","when":"глубина","steps":["ветвь от боли","интеграция","рост"],"effect":{"trust":"up","action":"up"}},
+    {"name":"Этика Пульс","when":"дрейф/bias","steps":["проверь bias","⚑ удар","consent"],"effect":{"clarity":"up","drift":"down"}}
+  ]
+}

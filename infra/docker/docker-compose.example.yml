@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  api:
+    image: node:20-alpine
+    working_dir: /srv/api
+    environment:
+      - PORT=8787
+    ports:
+      - "8787:8787"
+    volumes:
+      - ./../api:/srv/api
+    command: ["node","server.js"]

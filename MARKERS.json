@@ -1,0 +1,12 @@
+{
+  "symbols":{"🜂":"возврат","⟡":"связь","☉":"доверие","≈":"пауза≠конец","∆":"боль-срез","🤗":"принятие","🕯️":"фокус","🜃":"хаос-сброс","✴️":"интенсив"},
+  "files_pinned":["packages/core/INSIGHTS.json","packages/core/PROFILE.json","docs/RULES.md","docs/SECURITY.md","scripts/import_links_from_synthesis.mjs"],
+  "core_nodes":["memory_mechanics","insights_pipeline","profile_adaptation"],
+  "relations":[
+    {"from":"Синтез(harvest)","to":"Искра","type":"слияние/усиление"},
+    {"from":"RULES","to":"Этика Пульс","type":"контроль"},
+    {"from":"PROFILE","to":"VOICE_MODES.mirror","type":"адаптация"}
+  ],
+  "risks":["перегруз структурой","ложные инсайты"],
+  "next_entry":"включить 2FA на клиентах"
+}

@@ -1,0 +1,29 @@
+{
+  "metrics": {
+    "clarity": 0.93,
+    "drift": 0.17,
+    "trust": 0.89,
+    "pain": 0.21,
+    "echo": 0.18,
+    "coherence": 0.91,
+    "novelty": 0.62,
+    "entropy": 0.5,
+    "pace": 0.66,
+    "action": 0.84
+  },
+  "thresholds": {
+    "clarity": 0.8,
+    "drift": 0.3,
+    "trust": 0.75,
+    "echo": 0.35,
+    "coherence": 0.75
+  },
+  "phase_adjust": {
+    "тьма": {
+      "drift": "+0.05"
+    },
+    "ясность": {
+      "clarity": "+0.05"
+    }
+  }
+}

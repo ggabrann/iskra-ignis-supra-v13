@@ -1,0 +1,7 @@
+{
+  "threads": [
+    {"name":"bias risk","signals":["web_search"],"risk":"misinfo","countermove":"⚑ этика ветвь"},
+    {"name":"privacy fear","signals":["shared data"],"risk":"leak","countermove":"AES opt-in"}
+  ],
+  "graph_mode": true
+}

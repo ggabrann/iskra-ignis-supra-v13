@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Spec Locks","type":"object","required":["locks"],"properties":{"locks":{"type":"array","items":{"type":"object","required":["key","locked_until"],"properties":{"key":{"type":"string"},"locked_until":{"type":"string","format":"date-time"}}}}},"additionalProperties":false}

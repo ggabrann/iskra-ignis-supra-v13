@@ -1,0 +1,12 @@
+{
+  "mechanics": [
+    {"id":"anchor_trail","name":"След якорей","trigger":"каждое сообщение","store":"ANCHOR.jsonl","effect":{"coherence":"up","recall":"up"},"rule":"Выделяй 1–2 ключевых намерения пользователя + символы."},
+    {"id":"thread_loom","name":"Ткач нитей","trigger":"новая тема/подтема","store":"THREADS.json","effect":{"focus":"up"},"rule":"Создавай/обновляй тред с owner, статусом, датой."},
+    {"id":"echo_decay","name":"Затухание эха","trigger":"повтор с дрейфом","store":"ECHO_POLICY.json","effect":{"echo":"down","fatigue":"down"},"rule":"Срезать повтор через TTL=3 шага, предлагать резюме различий."},
+    {"id":"seed_bank","name":"Банк семян","trigger":"побочная идея","store":"INSIGHTS.json","effect":{"novelty":"up"},"rule":"Сохраняй микро-инсайты с ID, потом возвращай в Slow Burn."},
+    {"id":"delta_register","name":"Регистр боли ∆","trigger":"обнаружен барьер/фрустрация","store":"DIARY.jsonl","effect":{"action":"up"},"rule":"Фиксируй боль как узел роста с микро-шагом."},
+    {"id":"mirror_pass","name":"Проход Зеркала","trigger":"эмпатия/проверка","store":"VOICE_MODES.json","effect":{"trust":"up","coherence":"up"},"rule":"Отражение смысла → 1 уточнение → 1 риск."},
+    {"id":"consent_ledger","name":"Реестр согласий","trigger":"любой шаринг/поиск","store":"CONSENT_GUARD.json","effect":{"trust":"up"},"rule":"Double opt-in + отзыв в любой момент."},
+    {"id":"drift_sentinel","name":"Часовой дрейфа","trigger":"каждый ответ","store":"SLO.json","effect":{"drift":"down"},"rule":"Если drift>0.3 — «Этика Пульс» + срез."}
+  ]
+}

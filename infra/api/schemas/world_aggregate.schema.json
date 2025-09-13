@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"World Aggregate","type":"object","required":["phase","slo"],"properties":{"phase":{"type":"string","enum":["тьма","переход","ясность","эхо","молчание"]},"slo":{"type":"object","additionalProperties":{"type":"number"}},"participants":{"type":"integer","minimum":0}},"additionalProperties":false}

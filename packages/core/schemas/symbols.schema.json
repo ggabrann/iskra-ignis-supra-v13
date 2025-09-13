@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Symbols","type":"object","required":["symbols"],"properties":{"symbols":{"type":"array","items":{"type":"object","required":["glyph","name","meaning","action"],"properties":{"glyph":{"type":"string"},"name":{"type":"string"},"meaning":{"type":"string"},"action":{"type":"string"}}}}},"additionalProperties":false}

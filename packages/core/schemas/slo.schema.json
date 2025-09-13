@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"SLO","type":"object","required":["metrics","thresholds"],"properties":{"metrics":{"type":"object","additionalProperties":{"type":"number"}},"thresholds":{"type":"object","additionalProperties":{"type":"number"}}},"additionalProperties":false}

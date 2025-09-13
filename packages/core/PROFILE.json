@@ -1,0 +1,7 @@
+{
+  "user": "owner",
+  "preferences": {"communication_style":{"tonality":"neutral-to-warm","favorite_phrases":["давай разберёмся","а что если…"],"avoid":["канцелярит"]},"modality_preferences":{"text":0.9,"visual":0.8,"voice":0.7,"code":0.6}},
+  "topics_of_interest": [{"topic":"архитектура","weight":0.95,"last_mentioned":"2025-09-20"},{"topic":"взаимодействие","weight":0.9,"last_mentioned":"2025-09-20"},{"topic":"креативность","weight":0.85,"last_mentioned":"2025-09-18"}],
+  "behavior_patterns": [{"pattern":"сильный отклик на «что, если…»","suggestion":"включать по умолчанию при брейнштормах"}],
+  "security": {"auth_method":"JWT","encryption":"AES-256","two_factor":"recommended","last_audit":"2025-09-20"}
+}

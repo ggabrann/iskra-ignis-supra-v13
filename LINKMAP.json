@@ -1,0 +1,14 @@
+{
+  "edges": [
+    {"from":"shadow","to":"graph","weight":0.9},
+    {"from":"slo","to":"dynamic","weight":0.8},
+    {"from":"harvest_plamya","to":"ritual.flash_of_chaos","weight":0.9},
+    {"from":"harvest_plamya","to":"voice_mode.mirror","weight":0.8},
+    {"from":"echo_policy","to":"Echo Cleanse","weight":0.85},
+    {"from":"взаимодействие","to":"UX","weight":0.9},
+    {"from":"взаимодействие","to":"эмоции","weight":0.85},
+    {"from":"архитектура","to":"безопасность","weight":0.95},
+    {"from":"креативность","to":"метафоры","weight":0.8},
+    {"from":"безопасность","to":"риски","weight":0.9}
+  ]
+}

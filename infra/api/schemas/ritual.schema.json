@@ -1,0 +1,2 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","title":"Ritual","type":"object","required":["name","when","steps","effect"],"properties":{"name":{"type":"string"},"when":{"type":"string"},"steps":{"type":"array","items":{"type":"string"}},"effect":{"type":"object","additionalProperties":{"type":"string"}},"ethics_check":{"type":"boolean"}},"additionalProperties":false}
